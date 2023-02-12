@@ -1,1 +1,218 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T09:54:35.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="v1tXpP7HL3_HTMNS64g0" type="github"><diagram name="第 1 页" id="Lntknp9k6hRy_xTv5RLL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-12T10:19:27.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5nNXuFIJxj3nrwdL_diL" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="Lntknp9k6hRy_xTv5RLL">
+    <mxGraphModel dx="2154" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-3" value="PZEM-0004T 培正模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;exitX=0.964;exitY=0.647;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="250" as="sourcePoint" />
+            <mxPoint x="270" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="230" as="sourcePoint" />
+            <mxPoint x="270" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-11" value="零线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-13" value="火线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="245" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-15" value="互感线圈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="227" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-18" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44.44" y="375" as="sourcePoint" />
+            <mxPoint x="44.44" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-19" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44.44" y="220" as="sourcePoint" />
+            <mxPoint x="44.94" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-20" value="入户线(零/火均可)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-23" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="199.28932188134524" as="sourcePoint" />
+            <mxPoint x="620" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-24" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="259" as="sourcePoint" />
+            <mxPoint x="700" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-25" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="275" as="sourcePoint" />
+            <mxPoint x="700" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-26" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-27" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="227" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-28" value="5V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="275" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-29" value="TX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="245" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-30" value="RX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-31" value="220V转5V模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-33" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=3;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-34" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;entryX=0.9;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-31" target="I7-PQ7A9hoyi_Go-iEmm-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-35" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-36" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="455" />
+              <mxPoint x="620" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-37" value="火线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-38" value="零线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-39" value="5V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-40" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="457" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-42" value="ESP-01S模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-43" value="5V转3V模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-44" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="I7-PQ7A9hoyi_Go-iEmm-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="510" as="sourcePoint" />
+            <mxPoint x="560" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-45" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-46" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7-PQ7A9hoyi_Go-iEmm-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="426" as="sourcePoint" />
+            <mxPoint x="690" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-47" value="5V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-49" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7-PQ7A9hoyi_Go-iEmm-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="490" as="sourcePoint" />
+            <mxPoint x="780" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-50" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7-PQ7A9hoyi_Go-iEmm-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="490" as="sourcePoint" />
+            <mxPoint x="840" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-51" value="3V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-52" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-53" value="VCC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="305" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-54" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-55" value="RX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="235" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-56" value="TX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
