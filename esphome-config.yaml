@@ -1,0 +1,91 @@
+substitutions:
+  name: "power-monitor"
+  friendly_name: "Power Monitor"
+  
+esphome:
+  name: ${name}
+  project:
+    name: "power.monitor"
+    version: "1.0.0"
+
+
+esp8266:
+  board: esp01_1m # ESP-01/01S
+
+logger:
+  baud_rate: 0 # 和 UART 冲突，关闭日志
+
+# 启用 Home Assistant API
+api:
+
+# 手动升级密码
+ota:
+  password: "12345678"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # WiFi 连接失败时启用 AP 
+  ap:
+    ssid: ${name}
+    password: "12345678"
+
+captive_portal:
+web_server:
+      port: 80
+  
+status_led:
+  pin: GPIO2
+
+# ESP 01/01S 的引脚为 GPIO1 和 GPIO3
+uart:
+  rx_pin:
+    number: GPIO3 
+  tx_pin: 
+    number: GPIO1 
+  baud_rate: 9600
+  id: mod_uart
+
+modbus:
+  send_wait_time: 50ms
+  uart_id: mod_uart
+  id: mod_bus
+
+text_sensor:
+
+- platform: version
+  name: "${friendly_name} Version"
+  hide_timestamp: false  
+  
+sensor:
+- platform: pzemac
+  current: # 电流
+    name: '${friendly_name} Current'
+  voltage: # 电压
+    name: '${friendly_name} Voltage'
+  energy: # 总电量
+    name: '${friendly_name} Energy'
+    # 转换成 kWh
+    filters:
+      - multiply: 0.001
+    unit_of_measurement: 'kWh'
+    # 保留小数点后三位
+    accuracy_decimals: 3
+  power: # 当前功率
+    name: '${friendly_name} Power'
+    filters:
+      - multiply: 1
+    unit_of_measurement: 'Wh'
+    accuracy_decimals: 1
+  frequency: # 频率
+    name: '${friendly_name} Frequency'
+  power_factor: # 功率因子
+    name: '${friendly_name} Power Factor'
+  update_interval: 15s  # 15s 同步一次，太短可能会导致 ESP 不断重启
+
+# 启动时间
+- platform: uptime
+  name: "${friendly_name} Uptime"
+  id: uptime_sensor
+  update_interval: 1s
