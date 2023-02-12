@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T10:19:27.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5nNXuFIJxj3nrwdL_diL" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T10:21:33.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BhQPJbkC_hIOTfjX6RhJ" version="20.8.20" type="github">
   <diagram name="第 1 页" id="Lntknp9k6hRy_xTv5RLL">
-    <mxGraphModel dx="2154" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,13 +194,13 @@
             <mxPoint x="840" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-51" value="3V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="440" width="40" height="30" as="geometry" />
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-51" value="3.3V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="440" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I7-PQ7A9hoyi_Go-iEmm-52" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="790" y="440" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-53" value="VCC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I7-PQ7A9hoyi_Go-iEmm-53" value="3.3V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="685" y="305" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I7-PQ7A9hoyi_Go-iEmm-54" value="GND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
