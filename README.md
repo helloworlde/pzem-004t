@@ -4,8 +4,17 @@
 
 ![homelab-homeassistant-power-monitor-pannel.png](img/homelab-homeassistant-power-monitor-pannel.png)
 
+## 硬件 
 
-##1.  ESP-01S 刷入 esphome 固件
+| 硬件 | 价格 |数量|备注|
+|-----|---------------|---------------|---------------|
+|peacefair PZEM-004T 100A 主机+开合式CT|42|1|电表，建议使用开合式CT，不需要改动电路|
+|220V 转 5V1A 供电模块|8|1|用于为培正电表和 3v 模块供电|
+|5V 转 3.3V 供电模块|3.5|1|用于为 ESP-01S 模块供电|
+|40P杜邦线母对母|2.6|1|用于连接所有的模块|
+|40P杜邦线母对公|2.6|1|用于连接所有的模块|
+
+## 1.  ESP-01S 刷入 esphome 固件
 
 ### 运行 esphome 容器
 
